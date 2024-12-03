@@ -1,0 +1,12 @@
+.accordionContainer {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.accordionHeader {
+  padding: 10px;
+}
+
+.accordionContent {
+  padding: 10px;
+}
