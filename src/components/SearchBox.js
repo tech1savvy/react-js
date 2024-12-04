@@ -19,8 +19,11 @@ const SearchFilterApp = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   // Filtered data based on search query
-  const filteredData = data.filter((item) =>
-    item.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredData = data.filter(
+    (item) =>
+      // ********
+      item.toLowerCase().includes(searchQuery.toLowerCase())
+    // ********
   );
 
   return (
